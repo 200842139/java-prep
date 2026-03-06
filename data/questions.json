@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "category": "Java 基础",
+    "question": "Java 中 String 是不可变的，这样设计的原因是什么？",
+    "options": ["节省内存", "保证线程安全与哈希缓存、字符串常量池等", "提高性能", "没有特别原因"],
+    "answer": 1,
+    "explain": "不可变可以保证线程安全、便于实现字符串常量池、缓存 hashCode 等，同时作为 HashMap 的 key 更安全。"
+  },
+  {
+    "id": 2,
+    "category": "Java 基础",
+    "question": "Java 中只有值传递，没有引用传递。这句话是否正确？",
+    "options": ["错误，有引用传递", "正确，对象引用也是按值传递", "有时是值传递有时是引用传递", "取决于 JVM 实现"],
+    "answer": 1,
+    "explain": "Java 中传递的是引用的副本（即指针的拷贝），所以是值传递。"
+  },
+  {
+    "id": 3,
+    "category": "Java 集合",
+    "question": "HashMap 在 Java 8 中，当链表长度超过多少时会转为红黑树？",
+    "options": ["6", "7", "8", "9"],
+    "answer": 2,
+    "explain": "当链表长度 ≥ 8 且数组长度 ≥ 64 时，链表会树化为红黑树，否则仅扩容。"
+  },
+  {
+    "id": 4,
+    "category": "Java 集合",
+    "question": "ArrayList 和 LinkedList 在随机访问时，谁更高效？",
+    "options": ["LinkedList", "ArrayList", "一样", "取决于数据量"],
+    "answer": 1,
+    "explain": "ArrayList 基于数组，支持 O(1) 随机访问；LinkedList 需要遍历，平均 O(n)。"
+  },
+  {
+    "id": 5,
+    "category": "JVM",
+    "question": "以下哪个区域是线程共享的？",
+    "options": ["程序计数器", "虚拟机栈", "堆", "本地方法栈"],
+    "answer": 2,
+    "explain": "堆（Heap）存放对象实例，是线程共享的；程序计数器、虚拟机栈、本地方法栈是线程私有的。"
+  },
+  {
+    "id": 6,
+    "category": "MySQL",
+    "question": "MySQL InnoDB 默认的隔离级别是？",
+    "options": ["READ UNCOMMITTED", "READ COMMITTED", "REPEATABLE READ", "SERIALIZABLE"],
+    "answer": 2,
+    "explain": "InnoDB 默认使用 REPEATABLE READ（可重复读），通过 MVCC 和间隙锁减少幻读。"
+  },
+  {
+    "id": 7,
+    "category": "Redis",
+    "question": "Redis 的持久化方式 RDB 和 AOF 可以同时开启吗？",
+    "options": ["不可以", "可以，重启时 AOF 优先", "可以，重启时 RDB 优先", "只能二选一"],
+    "answer": 1,
+    "explain": "可以同时开启。重启时若存在 AOF 则优先使用 AOF 恢复，因为 AOF 通常更完整。"
+  },
+  {
+    "id": 8,
+    "category": "计算机网络",
+    "question": "TCP 三次握手中，第二次握手时 SYN 和 ACK 的状态分别是？",
+    "options": ["SYN=1, ACK=0", "SYN=0, ACK=1", "SYN=1, ACK=1", "SYN=0, ACK=0"],
+    "answer": 2,
+    "explain": "第二次握手是服务端回复客户端，同时确认收到（ACK=1）并请求建立连接（SYN=1）。"
+  }
+]

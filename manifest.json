@@ -1,0 +1,11 @@
+{
+  "name": "面试阅读",
+  "short_name": "面试",
+  "description": "后端面试阅读与模拟测试 - 移动端",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": []
+}

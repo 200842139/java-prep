@@ -1,0 +1,97 @@
+[
+  {
+    "id": "prepare",
+    "title": "面试准备",
+    "icon": "person_gear",
+    "items": [
+      { "title": "Java 学习路线（最新版）", "url": "https://javaguide.cn/interview-preparation/java-roadmap.html" },
+      { "title": "Java 后端面试通关计划", "url": "https://javaguide.cn/interview-preparation/backend-interview-plan.html" },
+      { "title": "程序员简历编写指南", "url": "https://javaguide.cn/interview-preparation/resume-guide.html" },
+      { "title": "项目经验指南", "url": "https://javaguide.cn/interview-preparation/project-experience-guide.html" }
+    ]
+  },
+  {
+    "id": "java-basis",
+    "title": "Java 基础",
+    "icon": "code",
+    "items": [
+      { "title": "Java 基础常见面试题(上)", "url": "https://javaguide.cn/java/basis/java-basic-questions-01.html" },
+      { "title": "Java 基础常见面试题(中)", "url": "https://javaguide.cn/java/basis/java-basic-questions-02.html" },
+      { "title": "Java 基础常见面试题(下)", "url": "https://javaguide.cn/java/basis/java-basic-questions-03.html" },
+      { "title": "Java 反射机制详解", "url": "https://javaguide.cn/java/basis/reflection.html" },
+      { "title": "Java 代理模式详解", "url": "https://javaguide.cn/java/basis/proxy.html" }
+    ]
+  },
+  {
+    "id": "java-collection",
+    "title": "Java 集合",
+    "icon": "collection",
+    "items": [
+      { "title": "Java 集合常见面试题(上)", "url": "https://javaguide.cn/java/collection/java-collection-questions-01.html" },
+      { "title": "Java 集合常见面试题(下)", "url": "https://javaguide.cn/java/collection/java-collection-questions-02.html" },
+      { "title": "HashMap 源码分析", "url": "https://javaguide.cn/java/collection/hashmap-source-code.html" },
+      { "title": "ArrayList 源码分析", "url": "https://javaguide.cn/java/collection/arraylist-source-code.html" }
+    ]
+  },
+  {
+    "id": "java-concurrent",
+    "title": "Java 并发",
+    "icon": "cpu",
+    "items": [
+      { "title": "Java 并发常见面试题(上)", "url": "https://javaguide.cn/java/concurrent/java-concurrent-questions-01.html" },
+      { "title": "Java 线程池详解", "url": "https://javaguide.cn/java/concurrent/java-thread-pool-summary.html" },
+      { "title": "AQS 详解", "url": "https://javaguide.cn/java/concurrent/aqs.html" },
+      { "title": "JMM 内存模型详解", "url": "https://javaguide.cn/java/concurrent/jmm.html" }
+    ]
+  },
+  {
+    "id": "jvm",
+    "title": "JVM",
+    "icon": "memory",
+    "items": [
+      { "title": "Java 内存区域", "url": "https://javaguide.cn/java/jvm/memory-area.html" },
+      { "title": "JVM 垃圾回收", "url": "https://javaguide.cn/java/jvm/jvm-garbage-collection.html" },
+      { "title": "类加载过程", "url": "https://javaguide.cn/java/jvm/class-loading-process.html" }
+    ]
+  },
+  {
+    "id": "mysql",
+    "title": "MySQL",
+    "icon": "database",
+    "items": [
+      { "title": "MySQL 常见面试题总结", "url": "https://javaguide.cn/database/mysql/mysql-questions-01.html" },
+      { "title": "MySQL 索引详解", "url": "https://javaguide.cn/database/mysql/mysql-index.html" },
+      { "title": "MySQL 事务隔离级别", "url": "https://javaguide.cn/database/mysql/transaction-isolation-level.html" }
+    ]
+  },
+  {
+    "id": "redis",
+    "title": "Redis",
+    "icon": "hdd",
+    "items": [
+      { "title": "Redis 常见面试题(上)", "url": "https://javaguide.cn/database/redis/redis-questions-01.html" },
+      { "title": "Redis 常见面试题(下)", "url": "https://javaguide.cn/database/redis/redis-questions-02.html" },
+      { "title": "Redis 持久化机制", "url": "https://javaguide.cn/database/redis/redis-persistence.html" }
+    ]
+  },
+  {
+    "id": "spring",
+    "title": "Spring",
+    "icon": "flower",
+    "items": [
+      { "title": "Spring 常见面试题总结", "url": "https://javaguide.cn/system-design/framework/spring/spring-knowledge-and-questions-summary.html" },
+      { "title": "IoC & AOP 详解", "url": "https://javaguide.cn/system-design/framework/spring/ioc-and-aop.html" },
+      { "title": "Spring 事务详解", "url": "https://javaguide.cn/system-design/framework/spring/spring-transaction.html" }
+    ]
+  },
+  {
+    "id": "network",
+    "title": "计算机网络",
+    "icon": "globe",
+    "items": [
+      { "title": "计算机网络常见面试题", "url": "https://javaguide.cn/cs-basics/network/other-network-questions.html" },
+      { "title": "TCP 三次握手和四次挥手", "url": "https://javaguide.cn/cs-basics/network/tcp-connection-and-disconnection.html" },
+      { "title": "HTTP vs HTTPS", "url": "https://javaguide.cn/cs-basics/network/http-vs-https.html" }
+    ]
+  }
+]
